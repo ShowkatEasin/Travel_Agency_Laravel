@@ -20,6 +20,7 @@
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
+    
 			<!-- Top header Close -->
 			<div class="main-header">
 				<div class="container">
@@ -30,11 +31,11 @@
 					<div class="nav-wrap">
 						<nav class="nav-desktop">
 							<ul class="menu-list">
-								<li><a href="http://127.0.0.1:5500/index.html">Home</a></li>
-								<li><a href="http://127.0.0.1:5500/packages.html">Packages</a></li>
-								<li><a href="http://127.0.0.1:5500/about.html">About</a></li>
-								<li><a href="http://127.0.0.1:5500/blogs.html">Blogs</a></li>
-								<li><a href="http://127.0.0.1:5500/contact.html">Contact</a></li>
+								<li><a href="{{ URL:: to('/home')}}">Home</a></li>
+								<li><a href="{{ URL:: to('/packages')}}">Packages</a></li>
+								<li><a href="{{ URL:: to('/about')}}">About</a></li>
+								<li><a href="{{ URL:: to('/blogs')}}">Blogs</a></li>
+								<li><a href="{{ URL:: to('/contact')}}">Contact</a></li>
 									<!-- 	</li>
 									</ul>
 								</li> -->
@@ -114,6 +115,8 @@
 				</div>
 			</div>
 		</div>
+
+
 		<footer class="page-footer">
 			<div class="footer-first-section">
 				<div class="container">
@@ -130,7 +133,7 @@
 						<li><a href=""><i class="fab fa-instagram"></i></a></li>
 						<li><a href=""><i class="fab fa-skype"></i></a></li>
 						<li><a href=""><i class="fab fa-youtube"></i></a></li>
-						
+
 					</ul>
 					<hr class="footer-line">
 				</div>

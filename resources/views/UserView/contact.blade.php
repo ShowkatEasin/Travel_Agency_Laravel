@@ -29,11 +29,11 @@
 					<div class="nav-wrap">
 						<nav class="nav-desktop">
 							<ul class="menu-list">
-								<li><a href="http://127.0.0.1:5500/index.html">Home</a></li>
-								<li><a href="http://127.0.0.1:5500/packages.html">Packages</a></li>
-								<li><a href="http://127.0.0.1:5500/about.html">About</a></li>
-								<li><a href="http://127.0.0.1:5500/blogs.html">Blogs</a></li>
-								<li><a href="http://127.0.0.1:5500/contact.html">Contact</a></li>
+								<li><a href="{{ URL:: to('/home')}}">Home</a></li>
+								<li><a href="{{ URL:: to('/packages')}}">Packages</a></li>
+								<li><a href="{{ URL:: to('/about')}}">About</a></li>
+								<li><a href="{{ URL:: to('/blogs')}}">Blogs</a></li>
+								<li><a href="{{ URL:: to('/contact')}}">Contact</a></li>
 									<!-- 	</li>
 									</ul>
 								</li> -->
@@ -120,10 +120,11 @@
 				<div class="container">
 					<hr class="footer-line">
 					<ul class="social-list">
-						<li><a href=""><i class="fab fa-facebook-square"></i></a></li>
-						<li><a href=""><i class="fab fa-instagram"></i></a></li>
-						<li><a href=""><i class="fab fa-skype"></i></a></li>
-						<li><a href=""><i class="fab fa-youtube"></i></a></li>
+						        <li><a href="{{ URL:: to('/home')}}">Home</a></li>
+								<li><a href="{{ URL:: to('/packages')}}">Packages</a></li>
+								<li><a href="{{ URL:: to('/about')}}">About</a></li>
+								<li><a href="{{ URL:: to('/blogs')}}">Blogs</a></li>
+								<li><a href="{{ URL:: to('/contact')}}">Contact</a></li>
 						
 					</ul>
 					<hr class="footer-line">
